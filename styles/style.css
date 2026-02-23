@@ -2,14 +2,13 @@ body {
     background-color: antiquewhite;
 }
 h1 {
-    background-color: aquamarine;
+    background-color: rgb(250, 192, 192);
+    color: blue;
 }
 div {
-    background-color: blue;
     width: 50vw
 }
-.divblanco {
-    background-color: aliceblue;
+.divblanco { color: blue;
 }
 #div1 {
     color: brown;}
@@ -45,3 +44,27 @@ div {
     right: 20%;
 
 }
+#boca {
+    width: 60%;
+    height: 30%;
+    border-radius: 0px 0px 30vw 30vw;
+    position: relative;
+    top: 60%;
+    left: 20%;
+    background-color: rgb(0, 0, 0);
+}
+.pupilas {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10vw;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+
+}
+#pIzquierdo {
+    top: 20%;
+    left: 30%;
+}
+#pDerecho {
+    top: 20%;
+    right: 30%;
