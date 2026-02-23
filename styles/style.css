@@ -1,3 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    background-color: aquamarine;
+}
 div {
     background-color: blue;
+    width: 50vw
+}
+.divblanco {
+    background-color: aliceblue;
+}
+#div1 {
+    color: brown;}
+#dibujo {
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#cara {width: 60%;
+    height: 60%;
+    background-color: rgb(0, 136, 255);
+    border-radius: 50vw;
+    position: relative;
+
+}
+.ojos {
+    background-color: aliceblue;
+    border-radius: 10vw;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+
+}
+#ojoIzquierdo {
+    top: 10%;
+    left: 20%;
+}
+#ojoDerecho {
+    top: 10%;
+    right: 20%;
+
 }
