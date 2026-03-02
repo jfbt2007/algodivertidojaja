@@ -1,9 +1,15 @@
 body {
     background-color: antiquewhite;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 h1 {
     background-color: rgb(250, 192, 192);
     color: blue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 div {
     width: 50vw
@@ -18,14 +24,22 @@ div {
     background-color: rgb(255, 255, 255);
     display:flex;
     justify-content: center;
-    align-items: center;
-}
-#cara {width: 60%;
+    align-items: center;}
+
+
+  #cara {width: 60%;
     height: 60%;
     background-color: rgb(0, 136, 255);
     border-radius: 50vw;
     position: relative;
+    animation-name: carita;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
 
+}
+@keyframes carita {
+  from {background-color: red;}
+  to {background-color: yellow;}
 }
 .ojos {
     background-color: aliceblue;
@@ -52,6 +66,12 @@ div {
     top: 60%;
     left: 20%;
     background-color: rgb(0, 0, 0);
+    transition: 1s ease-in-out;
+}
+#boca:hover {
+    background-color: rgb(255, 0, 0);
+    height:50%;
+
 }
 .pupilas {
     background-color: rgb(0, 0, 0);
@@ -64,7 +84,21 @@ div {
 #pIzquierdo {
     top: 20%;
     left: 30%;
+    transition: all 5s;
+}
+#pIzquierdo:hover {
+    transform: rotate(-45deg);
+    background-color: rgb(255, 0, 0);
+    height: 20%;
 }
 #pDerecho {
     top: 20%;
     right: 30%;
+    transition: all 5s ;
+}
+#pDerecho:hover
+{
+    transform: rotate(45deg);
+    background-color: rgb(255, 0, 0);
+    height: 20%;
+}
