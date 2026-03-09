@@ -11,6 +11,9 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+#texto {
+    cursor: pointer;
+}
 div {
     width: 50vw
 }
